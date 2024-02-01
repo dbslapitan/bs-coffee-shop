@@ -1,0 +1,27 @@
+button{
+    background-color: #5BACC3;
+    border: none;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+header > *, footer{
+    background-color: #FFF0ED;
+}
+
+.discount{
+    background-color: #393939;
+    color: #FFFFFF;
+    font-size: 45px;
+    margin: 0;
+    padding: 0 90px;
+    width: fit-content;
+}
+
+.price{
+    text-align: left;
+}
+
+.social > img {
+    width: 50px;
+}

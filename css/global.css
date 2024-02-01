@@ -9,7 +9,7 @@ h1, h2{
 }
 
 h3, .nav-heading{
-    font-size: 21px;
+    font-size: 33px;
     font-weight: 300;
 }
 
@@ -22,7 +22,7 @@ ul{
     list-style-type: none;
 }
 
-.nav > li{
+button, .nav > li{
     font-size: 21px;
     font-weight: 400;
 }
