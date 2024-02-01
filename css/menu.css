@@ -1,0 +1,48 @@
+h2, h3{
+    text-align: center;
+}
+
+.background{
+    background-image: url('../assets/images/coffee-circle.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+}
+
+.nav-title{
+    text-align: left;
+}
+
+.title-box{
+    background-color: #393939;
+    color: #FFFFFF;
+    height: 200px;
+    text-align: center;
+    width: 300px;
+}
+
+.sub.nav{
+    background-color: #393939;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.sub.nav > li > a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+main > section:nth-child(even){
+    background-color: #FFF0ED;
+}
+
+main > section:nth-child(odd){
+    background-color: #F7F7F7;
+}
+
+section > section > p {
+    font-style: italic;
+    text-align: center;
+    width: 550px;
+}

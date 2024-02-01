@@ -2,3 +2,34 @@ body{
     font-family: 'Open Sans';
     font-weight: 400;
 }
+
+h1, h2{
+    font-size: 60px;
+    font-weight: 300;
+}
+
+h3, .nav-heading{
+    font-size: 21px;
+    font-weight: 300;
+}
+
+p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.nav > li{
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.price{
+    font-style: normal;
+    color: #5BACC3;
+    text-align: center;
+    width: 100%;
+}
