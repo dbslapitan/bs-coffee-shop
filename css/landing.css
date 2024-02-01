@@ -1,7 +1,9 @@
-button{
+.btn{
     background-color: #5BACC3;
     border: none;
     color: #FFFFFF;
+    padding: 0 5px;
+    text-decoration: none;
     text-transform: uppercase;
 }
 

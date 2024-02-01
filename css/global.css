@@ -27,6 +27,10 @@ button, .nav > li{
     font-weight: 400;
 }
 
+.no-line{
+    text-decoration: none;
+}
+
 .price{
     font-style: normal;
     color: #5BACC3;
