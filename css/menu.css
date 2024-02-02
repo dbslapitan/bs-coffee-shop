@@ -6,7 +6,7 @@ h2, h3{
     background-image: url('../assets/images/coffee-circle.jpg');
     background-position: center;
     background-size: cover;
-    height: 700px;
+    height: 43.75rem;
     width: 100%;
 }
 
@@ -17,9 +17,9 @@ h2, h3{
 .title-box{
     background-color: #393939;
     color: #FFFFFF;
-    height: 200px;
+    height: 12.5rem;
     text-align: center;
-    width: 300px;
+    width: 18.75rem;
 }
 
 .sub.nav{
@@ -44,5 +44,5 @@ main > section:nth-child(odd){
 section > section > p {
     font-style: italic;
     text-align: center;
-    width: 550px;
+    max-width: 34.375rem;
 }
