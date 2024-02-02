@@ -1,3 +1,12 @@
+*{
+    box-sizing: border-box;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+
 body{
     font-family: 'Open Sans';
     font-weight: 400;
@@ -8,9 +17,13 @@ h1, h2{
     font-weight: 300;
 }
 
-h3, .nav-heading{
+h3, .nav-heading, .foot-heading{
     font-size: 2.0625rem;
     font-weight: 300;
+}
+
+ul{
+    list-style-type: none;
 }
 
 p{
@@ -18,22 +31,24 @@ p{
     font-weight: 400;
 }
 
-ul{
-    list-style-type: none;
+p.italic{
+    font-style: italic;
 }
 
-button, .nav > li{
-    font-size: 1.3125rem;
+.bold{
+    font-weight: 700;
+}
+
+.discount{
+    font-size: 2.8125rem;
     font-weight: 400;
 }
 
-.no-line{
-    text-decoration: none;
+.nav.sub a{
+    text-transform: uppercase;
 }
 
-.price{
-    font-style: normal;
-    color: #5BACC3;
-    text-align: center;
-    width: 100%;
+.nav-link, .button{
+    font-size: 1.3125rem;
+    font-weight: 400;
 }
