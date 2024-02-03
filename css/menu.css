@@ -13,3 +13,60 @@
     text-align: center;
     width: 18.75rem;
 }
+
+.sub-nav{
+    background-color: #393939;
+    height: 5rem;
+}
+
+.sub-nav__item{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.sub-nav__item--hidden-height{
+    height: 100%;
+    visibility: hidden;
+}
+
+.sub-nav__link-list{
+    height: 100%;
+    margin: auto;
+    width: fit-content;
+}
+
+.sub-nav__link{
+    border-left: 4px solid #5BACC3;
+    color: #FFFFFF;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.drink{
+    margin-top: 1rem;
+}
+
+.drink-category{
+    text-align: center;
+    padding: 1rem 0 2rem 0;
+}
+
+.drink-category:nth-child(even){
+    background-color: #FFF0ED;
+}
+
+.drink-category:nth-child(odd){
+    background-color: #F7F7F7;
+}
+
+.drink__description{
+    font-style: italic;
+    margin: auto;
+    max-width: 25rem;
+}
+
+.drink__price{
+    color: #5BACC3;
+}
