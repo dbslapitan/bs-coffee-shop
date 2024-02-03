@@ -13,23 +13,28 @@
 
 <body>
     <header>
-        <nav>
-            <a href="index.html">
-                <img src="./assets/logos/coffee-beans-logo-and-footer.svg" alt="coffee bean logo">
-                <h2>nitro</h2>
+        <nav class="main-nav">
+            <a class="main-nav__logo" href="/index.html">
+                <img class="main-nav__logo-image" src="../assets/logos/coffee-beans-logo-and-footer.svg" alt="coffee bean logo">
+                <h2 class="main-nav__logo-text">nitro</h2>
             </a>
-            <ul>
-                <li><a href="/index.html">ABOUT</a></li>
-                <li><a href="/pages/menu.html">MENU</a></li>
-                <li><a href="/pages/menu.html">SHOP NOW</a></li>
+            <ul class="main-nav__item-list">
+                <li class="main-nav__item">
+                    <a class="nav-link main-nav__link" href="/index.html">ABOUT</a>
+                </li>
+                <li class="main-nav__item">
+                    <a class="nav-link main-nav__link" href="/pages/menu.html">MENU</a>
+                </li>
+                <li class="main-nav__item">
+                    <a class="nav-link main-nav__link--nitro-blue" href="/pages/menu.html">SHOP NOW</a>
+                </li>
             </ul>
         </nav>
-        <section>
+        <section class="main-heading">
             <h1>Nitro Coffee</h1>
-            <p>Coffee is a brewed drink prepared from roasted coffee beans, the seeds of berries from certain Coffee
-                species.</p>
-            <a href="/pages/menu.html">Shop Now</a>
-            <img src="./assets/images/coffeebeans-hero.png" alt="coffee bag">
+            <p class="main-heading__definition">Coffee is a brewed drink prepared from roasted coffee beans, the seeds of berries from certain Coffee species.</p>
+            <a class="btn" href="/pages/menu.html">Shop Now</a>
+            <img class="main-heading_coffee-image" src="./assets/images/coffeebeans-hero.png" alt="coffee bag">
         </section>
     </header>
     <main>

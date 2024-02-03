@@ -22,6 +22,11 @@ h3, .nav-heading, .foot-heading{
     font-weight: 300;
 }
 
+p{
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
 .nav-link, .btn{
     font-size: 1.3125rem;
     font-weight: 400;
