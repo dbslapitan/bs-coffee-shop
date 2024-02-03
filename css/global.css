@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Open Sans';
+}
+
+h1, h2{
+    font-size: 3.75rem;
+    font-weight: 300;
+}
+
+.main-nav{
+    background-color: #FFF0ED;
+    padding: 1.25rem;
+}
+
+.main-nav__item{
+    margin-left: 1.25rem;
+}
+
+.main-nav__link--nitro-blue{
+    color: #5BACC3;
+    text-decoration: none;
+}
+
+.main-nav__logo, .main-nav__link{
+    color: #393939;
+    text-decoration: none;
+}
+
+.main-nav__logo-text, .main-nav__item, .main-nav__item-list{
+    display: inline;
+}
+
+.main-nav__link{
+    font-size: 1.3125rem;
+    font-weight: 400;
+}
