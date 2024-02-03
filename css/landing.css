@@ -1,15 +1,10 @@
 .main-heading{
     background-color: #FFF0ED;
-    height: fit-content;
+    height: 650px;
 }
 
 .main-heading__definition{
     width: 370px;
-}
-
-.main-heading__left, .main-heading__title{
-    display: inline-block;
-    vertical-align: middle;
 }
 
 .main-heading--set-vertical-align{
