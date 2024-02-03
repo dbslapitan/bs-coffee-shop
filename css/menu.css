@@ -24,7 +24,7 @@
     vertical-align: middle;
 }
 
-.sub-nav__item--hidden-height{
+.sub-nav__item--set-vertical-align{
     height: 100%;
     visibility: hidden;
 }

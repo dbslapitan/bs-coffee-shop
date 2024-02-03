@@ -1,3 +1,18 @@
+.main-heading{
+    background-color: #FFF0ED;
+    height: fit-content;
+}
+
 .main-heading__definition{
-    width: 21.875rem;
+    width: 370px;
+}
+
+.main-heading__left, .main-heading__title{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-heading--set-vertical-align{
+    display: inline-block;
+    height: 100%;
 }
