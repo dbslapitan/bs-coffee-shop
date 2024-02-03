@@ -36,7 +36,7 @@ h1, h2{
     display: inline;
 }
 
-.main-nav__link{
+.main-nav__link, .main-nav__link--nitro-blue{
     font-size: 1.3125rem;
     font-weight: 400;
 }

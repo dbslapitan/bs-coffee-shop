@@ -1,0 +1,15 @@
+.main-heading{
+    background-image: url('../assets/images/coffee-circle.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+}
+
+.main-heading__title{
+    background-color: #393939;
+    color: #FFFFFF;
+    height: 12.5rem;
+    margin: auto;
+    text-align: center;
+    width: 18.75rem;
+}
