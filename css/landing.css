@@ -23,6 +23,16 @@
     width: 90%;
 }
 
+.info{
+    display: inline-block;
+    margin: 0 4rem;
+}
+
+.info-container{
+    margin: auto;
+    width: fit-content;
+}
+
 .main-heading {
     background-color: #FFF0ED;
     padding: 3rem 0;
@@ -37,8 +47,8 @@
 }
 
 .main-heading__left-container{
-    margin-left: 128px;
-    margin-top: 144px;
+    padding-left: 128px;
+    padding-top: 144px;
     vertical-align: top;
 }
 
@@ -92,4 +102,13 @@
 .products-container{
     margin: auto;
     width: fit-content;
+}
+
+.site-info{
+    background-color: #FFF0ED;
+    padding: 5rem 0;
+}
+
+.social-logo{
+    height: 3.125rem;
 }
