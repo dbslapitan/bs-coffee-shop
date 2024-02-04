@@ -36,30 +36,32 @@
                 <h1 class="main-heading__title">Nitro Coffee</h1>
                 <p class="main-heading__definition">Coffee is a brewed drink prepared from roasted coffee beans, the
                     seeds of berries from certain Coffee species.</p>
-                <a class="btn" href="/pages/menu.html">Shop Now</a>
+                <a class="btn main-heading__shop-now" href="/pages/menu.html">Shop Now</a>
             </div>
             <img class="main-heading__image" src="./assets/images/coffeebeans-hero.png" alt="coffee bag">
         </section>
     </header>
     <main>
-        <section>
-            <h2>Our Products</h2>
-            <article>
-                <img src="./assets/images/coffeebeans.png" alt="coffee beans">
-                <h3>Coffee Beans</h3>
-                <p>$18.99</p>
-            </article>
-            <article>
-                <img src="./assets/images/coldbrew.png" alt="cold brew">
-                <h3>Cold Brew</h3>
-                <p>$4.99</p>
-            </article>
-            <article>
-                <img src="./assets/images/inhousebrew.png" alt="in-house brew">
-                <h3>In-house Brew</h3>
-                <p>$2.99</p>
-            </article>
-            <a href="/pages/menu.html">VIEW ALL</a>
+        <section class="products">
+            <h2 class="products__title">Our Products</h2>
+            <div class="products-container">
+                <article class="product">
+                    <img class="product__image" src="./assets/images/coffeebeans.png" alt="coffee beans">
+                    <h3 class="product__name">Coffee Beans</h3>
+                    <p class="product__price">$18.99</p>
+                </article>
+                <article class="product">
+                    <img class="product__image" src="./assets/images/coldbrew.png" alt="cold brew">
+                    <h3 class="product__name">Cold Brew</h3>
+                    <p class="product__price">$4.99</p>
+                </article>
+                <article class="product">
+                    <img class="product__image" src="./assets/images/inhousebrew.png" alt="in-house brew">
+                    <h3 class="product__name">In-house Brew</h3>
+                    <p class="product__price">$2.99</p>
+                </article>
+            </div>
+            <a class="btn products__view-all" href="/pages/menu.html">VIEW ALL</a>
         </section>
         <p>Get 20% off your first order with code: FirstNitro</p>
     </main>
