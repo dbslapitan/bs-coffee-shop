@@ -1,13 +1,33 @@
-.main-heading{
+.btn{
+    background-color: #5BACC3;
+    color: #FFFFFF;
+    margin-top: 3rem;
+    padding: 1.25rem 0;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 11.25rem;
+}
+
+.main-heading {
     background-color: #FFF0ED;
-    height: 650px;
+    padding: 3rem 0;
 }
 
-.main-heading__definition{
-    width: 370px;
+.main-heading__definition {
+    width: 23.125rem;
 }
 
-.main-heading--set-vertical-align{
+.main-heading__left-container, .main-heading__right{
     display: inline-block;
-    height: 100%;
+}
+
+.main-heading__left-container{
+    margin-left: 128px;
+    margin-top: 144px;
+    vertical-align: top;
+}
+
+.main-heading__image{
+    margin-left: 20%;
 }
