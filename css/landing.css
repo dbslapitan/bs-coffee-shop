@@ -36,24 +36,25 @@
 .main-heading {
     background-color: #FFF0ED;
     padding: 3rem 0;
+    text-align: center;
 }
 
 .main-heading__definition {
     width: 23.125rem;
 }
 
-.main-heading__left-container, .main-heading__right{
+.main-heading__left, .main-heading__right{
     display: inline-block;
 }
 
-.main-heading__left-container{
-    padding-left: 128px;
-    padding-top: 144px;
+.main-heading__left{
+    margin-top: 144px;
     vertical-align: top;
+    text-align: start;
 }
 
 .main-heading__image{
-    margin-left: 20%;
+    margin-left: 15%;
 }
 
 .main-heading__shop-now{
@@ -66,9 +67,8 @@
     box-shadow: 0 5px 9px -1px  rgba(0, 0, 0, 0.25);
     display: inline-block;
     height: 27.5rem;
-    margin: 40px;
+    margin: 2.5rem 3vw;
     padding: 1.25rem;
-    text-align: center;
     width: 20.625rem;
 }
 
@@ -88,6 +88,7 @@
 .products{
     background-color: #F7F7F7;
     padding: 5rem 0;
+    text-align: center;
 }
 
 .products__title{
@@ -99,14 +100,10 @@
     margin: 1.25rem auto 0 auto;
 }
 
-.products-container{
-    margin: auto;
-    width: fit-content;
-}
-
 .site-info{
     background-color: #FFF0ED;
     padding: 5rem 0;
+    text-align: center;
 }
 
 .social-logo{
