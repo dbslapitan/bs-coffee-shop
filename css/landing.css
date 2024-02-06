@@ -8,8 +8,13 @@
     width: 11.25rem;
 }
 
+.btn-container{
+    width: 100%;
+}
+
 .discount{
     padding: 10rem 0;
+    width: 100%;
 }
 
 .discount__text{
@@ -34,27 +39,16 @@
 }
 
 .main-heading {
+    align-items: center;
     background-color: #FFF0ED;
-    padding: 3rem 0;
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 3rem 9rem;
 }
 
 .main-heading__definition {
     width: 23.125rem;
-}
-
-.main-heading__left, .main-heading__right{
-    display: inline-block;
-}
-
-.main-heading__left{
-    margin-top: 144px;
-    vertical-align: top;
-    text-align: start;
-}
-
-.main-heading__image{
-    margin-left: 15%;
 }
 
 .main-heading__shop-now{
@@ -62,37 +56,62 @@
 }
 
 .product{
+    align-items: center;
     background-color: #FFFFFF;
     border-radius: 10px;
     box-shadow: 0 5px 9px -1px  rgba(0, 0, 0, 0.25);
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     height: 27.5rem;
-    margin: 2.5rem 3vw;
-    padding: 1.25rem;
     width: 20.625rem;
 }
 
-.product__image{
+.product__details{
+    background-color: #FFF0ED;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 2rem;
+    width: 100%;
+}
+
+.product__image-container{
+    align-items: center;
+    display: flex;
+    justify-content: center;
     height: 17.5rem;
 }
 
-.product__name, .product__price{
-    margin-top: 1.25rem;
+.product__price{
+    align-items: center;
+    color: #5BACC3;
+    display: flex;
+    font-size: 1.75rem;
+    height: 100%;
+    justify-content: end;
+    font-weight: 700;
 }
 
-.product__price{
-    margin-top: 1.25rem;
-    color: #5BACC3;
+.product__qty{
+    opacity: 0.8;
 }
 
 .products{
+    align-content: center;
     background-color: #F7F7F7;
-    padding: 5rem 0;
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5rem 9rem;
+    row-gap: 2rem;
 }
 
 .products__title{
     text-align: center;
+    width: 100%;
 }
 
 .products__view-all{
