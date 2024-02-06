@@ -13,7 +13,7 @@
 }
 
 .discount{
-    padding: 10rem 0;
+    padding: 10rem 9rem;
     width: 100%;
 }
 
@@ -25,12 +25,10 @@
     margin: auto;
     padding: 1.25rem 0;
     text-align: center;
-    width: 90%;
 }
 
-.info{
-    display: inline-block;
-    margin: 0 4rem;
+.discount__text--bold{
+    font-weight: 700;
 }
 
 .info-container{
@@ -121,10 +119,34 @@
 
 .site-info{
     background-color: #FFF0ED;
-    padding: 5rem 0;
-    text-align: center;
+    justify-content: space-between;
+    display: flex;
+    padding: 5rem 9rem;
 }
 
-.social-logo{
+.icon{
     height: 3.125rem;
+}
+
+.learn-more{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 9rem 0 9rem;
+}
+
+.learn-more__left-container{
+    row-gap: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 28.125rem;
+}
+
+.learn-more__display_img_bkg{
+    background-image: url('/assets/images/coldbrewbackground.png');
+    background-size: cover;
+    text-align: center;
+    padding: 1.25rem;
+    width: 25rem;
 }

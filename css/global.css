@@ -36,11 +36,18 @@ p{
 
 .main-nav{
     background-color: #FFF0ED;
-    padding: 1.25rem;
+    justify-content: space-between;
+    padding: 1rem 1rem;
 }
 
-.main-nav__item{
-    margin-left: 1.25rem;
+.main-nav, .main-nav__logo, .main-nav__item-list, .main-nav__item{
+    display: flex;
+    align-items: baseline;
+}
+
+.main-nav__item-list{
+    list-style: none;
+    column-gap: 3rem;
 }
 
 .main-nav__link--nitro-blue{
@@ -51,8 +58,4 @@ p{
 .main-nav__logo, .main-nav__link{
     color: #393939;
     text-decoration: none;
-}
-
-.main-nav__logo-text, .main-nav__item, .main-nav__item-list{
-    display: inline;
 }
