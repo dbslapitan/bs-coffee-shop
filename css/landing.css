@@ -60,6 +60,79 @@ p {
   text-decoration: none;
 }
 
+@keyframes color-flash {
+  0% {
+    background-color: #393939;
+  }
+  50% {
+    background-color: #5BACC3;
+  }
+  100% {
+    background-color: #393939;
+  }
+}
+@keyframes full-rotation {
+  5% {
+    transform: rotate(18deg);
+  }
+  10% {
+    transform: rotate(36deg);
+  }
+  15% {
+    transform: rotate(54deg);
+  }
+  20% {
+    transform: rotate(72deg);
+  }
+  25% {
+    transform: rotate(90deg);
+  }
+  30% {
+    transform: rotate(108deg);
+  }
+  35% {
+    transform: rotate(126deg);
+  }
+  40% {
+    transform: rotate(144deg);
+  }
+  45% {
+    transform: rotate(162deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  55% {
+    transform: rotate(198deg);
+  }
+  60% {
+    transform: rotate(216deg);
+  }
+  65% {
+    transform: rotate(234deg);
+  }
+  70% {
+    transform: rotate(252deg);
+  }
+  75% {
+    transform: rotate(270deg);
+  }
+  80% {
+    transform: rotate(288deg);
+  }
+  85% {
+    transform: rotate(306deg);
+  }
+  90% {
+    transform: rotate(324deg);
+  }
+  95% {
+    transform: rotate(342deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 .btn {
   background-color: #5BACC3;
   color: #FFFFFF;
@@ -69,6 +142,7 @@ p {
   text-decoration: none;
   text-transform: uppercase;
   width: 11.25rem;
+  transition: 1s;
 }
 .btn__offset {
   border: 2px solid #000000;
@@ -77,6 +151,11 @@ p {
   position: absolute;
   top: -0.25rem;
   width: 100%;
+}
+
+.btn:active > .btn__offset {
+  top: 0;
+  left: 0;
 }
 
 .btn-container {
@@ -88,6 +167,7 @@ p {
   width: 100%;
 }
 .discount__text {
+  animation: color-flash 2.5s infinite forwards;
   background-color: #393939;
   color: #FFFFFF;
   font-size: 2.8125rem;
@@ -219,6 +299,13 @@ p {
   flex-wrap: wrap;
   justify-content: space-between;
   width: 28.125rem;
+}
+.learn-more__display-img {
+  position: relative;
+  z-index: 1000;
+}
+.learn-more__display-img:hover {
+  animation: full-rotation 2s infinite forwards;
 }
 .learn-more__display_img_bkg {
   background-image: url("/assets/images/coldbrewbackground.png");
