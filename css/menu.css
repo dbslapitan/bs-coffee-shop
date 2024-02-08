@@ -8,6 +8,15 @@
     justify-content: center;
 }
 
+.main-heading__detail-box{
+    border: 4px solid #5BACC3;
+    height: 12.5rem;
+    left: -0.75rem;
+    position: absolute;
+    top: -0.75rem;
+    width: 18.75rem;
+}
+
 .main-heading__title{
     align-items: center;
     background-color: #393939;
@@ -16,6 +25,7 @@
     height: 12.5rem;
     justify-content: center;
     margin: auto;
+    position: relative;
     width: 18.75rem;
 }
 
