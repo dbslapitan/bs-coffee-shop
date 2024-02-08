@@ -174,6 +174,16 @@
     background-image: url('/assets/images/coldbrewbackground.png');
     background-size: cover;
     text-align: center;
-    padding: 1.25rem;
+    padding: 1.25rem 1.25rem 2.25rem 1.25rem;
+    position: relative;
     width: 25rem;
+}
+
+.learn-more__img-offset{
+    top: -1rem;
+    left: -1rem;
+    border: 4px solid #5BACC3;
+    width: 25rem;
+    height: 21.5rem;
+    position: absolute;
 }
