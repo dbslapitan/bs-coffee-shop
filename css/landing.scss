@@ -1,0 +1,191 @@
+@use './partials/global' as *;
+
+.btn{
+    background-color: #5BACC3;
+    color: #FFFFFF;
+    padding: 1.25rem 0;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 11.25rem;
+
+    &__offset{
+        border: 2px solid #000000;
+        height: 100%;
+        left: -0.25rem;
+        position: absolute;
+        top: -0.25rem;
+        width: 100%;
+    }
+}
+
+.btn-container{
+    width: 100%;
+}
+
+.discount{
+    padding: 10rem 9rem;
+    width: 100%;
+
+    &__text{
+        background-color: #393939;
+        color: #FFFFFF;
+        font-size: 2.8125rem;
+        font-weight: 400;
+        margin: auto;
+        padding: 1.25rem 0;
+        text-align: center;
+    }
+
+    &__text--bold{
+        font-weight: 700;
+    }
+}
+
+.info-container{
+    margin: auto;
+    width: fit-content;
+}
+
+.main-heading {
+    align-items: center;
+    background-color: #FFF0ED;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 3rem 9rem;
+}
+
+.main-heading__definition {
+    width: 23.125rem;
+}
+
+.main-heading__shop-now{
+    margin-top: 3rem;
+}
+
+.product{
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 5px 9px -1px  rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    height: 27.5rem;
+    width: 20.625rem;
+
+    &__details{
+        background-color: #FFF0ED;
+        border-radius: 0 0 10px 10px;
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0 2rem;
+        width: 100%;
+    }
+
+    &__image-container{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        height: 17.5rem;
+    }
+
+    &__price{
+        align-items: center;
+        color: #5BACC3;
+        display: flex;
+        font-size: 1.75rem;
+        height: 100%;
+        justify-content: end;
+        font-weight: 700;
+    }
+
+    &__qty{
+        opacity: 0.8;
+    }
+}
+
+.products{
+    align-content: center;
+    background-color: #F7F7F7;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5rem 9rem;
+    row-gap: 2rem;
+
+    &__title{
+        text-align: center;
+        width: 100%;
+    }
+
+    &__view-all{
+        display: block;
+        margin: 1.25rem auto 0 auto;
+    }
+}
+
+.site-info{
+    background-color: #FFF0ED;
+    justify-content: space-between;
+    display: flex;
+    padding: 5rem 9rem;
+    position: relative;
+
+    &__left-decor{
+        height: 8rem;
+        position: absolute;
+        opacity: 0.3;
+        top: 1rem;
+        left: -2.5rem;
+    }
+
+    &__right-decor{
+        bottom: 1rem;
+        height: 8rem;
+        position: absolute;
+        opacity: 0.3;
+        right: -2.5rem;
+    }
+}
+
+.icon{
+    height: 3.125rem;
+}
+
+.learn-more{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 9rem 0 9rem;
+
+    &__left-container{
+        row-gap: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 28.125rem;
+    }
+
+    &__display_img_bkg{
+        background-image: url('/assets/images/coldbrewbackground.png');
+        background-size: cover;
+        text-align: center;
+        padding: 1.25rem 1.25rem 2.25rem 1.25rem;
+        position: relative;
+        width: 25rem;
+    }
+
+    &__img-offset{
+        top: -1rem;
+        left: -1rem;
+        border: 4px solid #5BACC3;
+        width: 25rem;
+        height: 21.5rem;
+        position: absolute;
+    }
+}
